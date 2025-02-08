@@ -6,13 +6,13 @@ const rooms = [
   {
     id: 1,
     name: 'Room No. 1',
-    image: '/src/assets/images/room1/index.jpg',
+    image: '/images/room1/index.jpg',
     description: 'Cozy single room with modern amenities and garden view',
     additionalPhotos: [
-      '/src/assets/images/room1/1.jpg',
-      '/src/assets/images/room1/2.jpg',
-      '/src/assets/images/room1/3.jpg',
-      '/src/assets/images/room1/4.jpg'
+      '/images/room1/1.jpg',
+      '/images/room1/2.jpg',
+      '/images/room1/3.jpg',
+      '/images/room1/4.jpg'
     ],
     fullDescription: 'hihihihi'
   },
