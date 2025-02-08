@@ -1,18 +1,24 @@
 import React from 'react';
 import { Home, Phone, Mail, MessageCircle, ChevronDown, ChevronUp, X } from 'lucide-react';
 import { useState } from 'react';
+import room1Image from '../public/images/room1/index.jpg'
+import room1Photo1 from '../public/images/room1/1.jpg'
+import room1Photo2 from '../public/images/room1/2.jpg'
+import room1Photo3 from '../public/images/room1/3.jpg'
+import room1Photo4 from '../public/images/room1/4.jpg'
+
 
 const rooms = [
   {
     id: 1,
     name: 'Room No. 1',
-    image: '/images/room1/index.jpg',
+    image: room1Image,
     description: 'Cozy single room with modern amenities and garden view',
     additionalPhotos: [
-      '/images/room1/1.jpg',
-      '/images/room1/2.jpg',
-      '/images/room1/3.jpg',
-      '/images/room1/4.jpg'
+      room1Photo1,
+      room1Photo2,
+      room1Photo3,
+      room1Photo4
     ],
     fullDescription: 'hihihihi'
   },
